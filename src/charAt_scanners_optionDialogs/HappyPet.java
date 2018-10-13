@@ -21,10 +21,10 @@ String mypet = JOptionPane.showInputDialog("What pet do you want to buy?");
 			if(task == 0) {
 				cuddle();
 			}
-			if(task == 1) {
+			else if(task == 1) {
 				food();
 			}
-			if(task == 2) {
+			else if(task == 2) {
 				water();
 			}
 			if(task == 3) {
